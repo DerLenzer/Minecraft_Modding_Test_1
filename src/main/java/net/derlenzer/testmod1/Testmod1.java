@@ -18,7 +18,7 @@ public class Testmod1 {
     // Define mod id in a common place for everything to reference
     public static final String MOD_ID = "testmod1";
 
-    // Directly reference a slf4j logger
+    // Very Important Comment
     private static final Logger LOGGER = LogUtils.getLogger();
     public Testmod1() {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
