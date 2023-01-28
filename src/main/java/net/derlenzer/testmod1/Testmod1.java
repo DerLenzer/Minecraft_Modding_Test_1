@@ -1,6 +1,7 @@
 package net.derlenzer.testmod1;
 
 import com.mojang.logging.LogUtils;
+import net.derlenzer.testmod1.item.ModCreativeModeTabs;
 import net.derlenzer.testmod1.item.ModItems;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.CreativeModeTabs;
@@ -37,6 +38,10 @@ public class Testmod1 {
     }
     private void addCreative(CreativeModeTabEvent.BuildContents event) {
         if(event.getTab() == CreativeModeTabs.INGREDIENTS) {
+            event.accept(ModItems.BLACK_OPAL);
+            event.accept(ModItems.RAW_BLACK_OPAL);
+        }
+        if(event.getTab() == ModCreativeModeTabs.Testmod1_TAB) {
             event.accept(ModItems.BLACK_OPAL);
             event.accept(ModItems.RAW_BLACK_OPAL);
         }

@@ -1,5 +1,7 @@
 {
   "item.testmod1.black_opal": "Black Opal",
-  "item.testmod1.raw_black_opal": "Raw Black Opal"
+  "item.testmod1.raw_black_opal": "Raw Black Opal",
+
+  "creativemodetab.testmod1_tab": "Testmod1 Tab"
   //item:Minecraftname
 }
